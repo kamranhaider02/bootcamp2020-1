@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: bootcamp2020-1
+name: bootcamp2020-1-by Kamran Haider
 
 # Controls when the action will run. 
 on:
@@ -34,4 +34,4 @@ jobs:
       - name: Installing Surge
         run: npm install -g surge
       - name: Deploying web through surge
-        run: surge ./ bootcamp2020-1.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ bootcamp2020-class1-from-kamran.surge.sh --token ${{secrets.SURGE_TOKEN}}
